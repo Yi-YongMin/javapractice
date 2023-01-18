@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 import org.opentutorials.iot.DimmingLights;
 import org.opentutorials.iot.Elevator;
@@ -7,8 +7,8 @@ import org.opentutorials.iot.Lighting;
 
 public class OkJavagoinput {
     public static void main(String[] args) {
-        String id = JOptionPane.showInputDialog("Enter a ID");
-        String bright = JOptionPane.showInputDialog("Enter a Bright Level");
+        String id = args[0];// JOptionPane.showInputDialog("Enter a ID");
+        String bright = args[1];// JOptionPane.showInputDialog("Enter a Bright Level");
 
         Elevator myElevator = new Elevator(id);
         myElevator.callForUp(1);
