@@ -1,4 +1,3 @@
-//import javax.swing.JOptionPane;
 
 import org.opentutorials.iot.DimmingLights;
 import org.opentutorials.iot.Elevator;
@@ -12,10 +11,10 @@ public class OkJavagoinput {
 
         Elevator myElevator = new Elevator(id);
         myElevator.callForUp(1);
-        // 엘베 콜
+
         Security mySecurity = new Security(id);
         mySecurity.off();
-        // 보안 끄기
+
         Lighting hallamp = new Lighting(id + "/ hall lamp");
         hallamp.on();
         Lighting floorlamp = new Lighting(id + "/ floor lamp");

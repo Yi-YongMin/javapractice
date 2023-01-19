@@ -1,43 +1,50 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch HelloWorldApp",
-            "request": "launch",
-            "mainClass": "HelloWorldApp",
-            "projectName": "javapractice_88f29815"
-        },
-        {
-            "type": "java",
-            "name": "Launch OkJavago",
-            "request": "launch",
-            "mainClass": "OkJavago",
-            "projectName": "javapractice_88f29815"
-        },
-        {   
-            "args": ["iljik","15.0"],
-            "type": "java",
-            "name": "Launch OkJavagoinput",
-            "request": "launch",
-            "mainClass": "OkJavagoinput",
-            "projectName": "javapractice_88f29815"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringOperation",
-            "request": "launch",
-            "mainClass": "StringOperation",
-            "projectName": "javapractice_88f29815"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch ClassApp",
+      "request": "launch",
+      "mainClass": "ClassApp",
+      "projectName": "javapractice_88f29815"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch HelloWorldApp",
+      "request": "launch",
+      "mainClass": "HelloWorldApp",
+      "projectName": "javapractice_88f29815"
+    },
+    {
+      "type": "java",
+      "name": "Launch OkJavago",
+      "request": "launch",
+      "mainClass": "OkJavago",
+      "projectName": "javapractice_88f29815"
+    },
+    {
+      "args": ["iljik", "15.0"],
+      "type": "java",
+      "name": "Launch OkJavagoinput",
+      "request": "launch",
+      "mainClass": "OkJavagoinput",
+      "projectName": "javapractice_88f29815"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringOperation",
+      "request": "launch",
+      "mainClass": "StringOperation",
+      "projectName": "javapractice_88f29815"
+    }
+  ]
 }
